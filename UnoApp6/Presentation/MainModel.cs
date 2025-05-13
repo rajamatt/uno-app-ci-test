@@ -11,7 +11,7 @@ public partial record MainModel
     {
         _navigator = navigator;
         Title = "Main";
-        Title += $" - {localizer["ApplicationName"]}";
+        Title += $" - {localizer["ApplicationTitle"]}";
         Title += $" - {appInfo?.Value?.Environment}";
     }
 
